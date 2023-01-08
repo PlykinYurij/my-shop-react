@@ -1,0 +1,16 @@
+.category {
+    margin-bottom: 10px;
+}
+
+.category a {
+    font-size: large;
+}
+
+.category a:hover {
+    color: gray;
+}
+
+.title {
+    font-size: x-large; 
+    margin-bottom: 15px;
+}

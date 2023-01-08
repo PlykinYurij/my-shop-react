@@ -1,0 +1,29 @@
+.containerCreateProduct {
+    position: static;
+}
+
+.inputCreate {
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    
+}
+.inputCreate:hover {
+    border: 1px solid black;
+}
+
+.inputContainer {
+    margin-bottom: 5px;
+}
+
+.buttonAdd {
+    width: 50%;
+    background: gainsboro;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+
+.buttonAdd:hover {
+    background: gray;
+    font-weight: bold;
+}

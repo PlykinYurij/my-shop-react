@@ -1,0 +1,56 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.catalogConteiner {
+    width: fit-content;
+    padding: 0 10px;
+}
+.contentContainer {
+    width: 70%;
+}
+
+.emptyContainer{
+    width: 10%;
+}
+
+.btnCreateProduct {
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+    border: 1px solid gray;
+    background: white;
+    border-radius: 10%;
+}
+
+.btnCreateProduct:hover {
+    background: rgba(235, 230, 230, 0.4);
+    color: #acb54a;
+}
+
+.containerOptions {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1000px) {
+    .containerOptions {
+        flex-direction: column;
+    }
+}
+
+.option {
+    border: 1px solid gray;
+    margin: 10px;
+    width: min-content;
+
+}
+
+@media (max-width: 1000px) {
+    .option {
+        margin-left: 60px;
+        width: 50%;
+    }
+}

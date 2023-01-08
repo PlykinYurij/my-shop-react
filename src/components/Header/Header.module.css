@@ -1,0 +1,32 @@
+.containerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e5e1e1;
+    height: 50%;
+}
+
+a {
+    color: black;
+    font-size: large;
+}
+
+.shopIcon {
+    margin: 5px;
+    width: 30px;
+}
+
+.navigationsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+a {
+    font-size: large;
+    font-weight: lighter;
+}
+
+a.active {
+    font-weight: bolder;
+}

@@ -1,0 +1,19 @@
+.myButton {
+    min-width: fit-content ;
+    background-color: white;
+    border: 1px solid #e5e1e1;
+    padding: 5px;
+}
+
+.myButton:hover {
+    background-color: #e5e1e1;
+}
+
+.myButton:active {
+    background-color: gray;
+}
+
+.myButton:disabled {
+    background-color: #f2ebeb;
+    border: 1px solid #f2ebeb;
+}
