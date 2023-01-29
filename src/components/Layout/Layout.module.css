@@ -1,0 +1,12 @@
+.wrapperContent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+
+}
+.main {
+    flex-grow: 1;
+}

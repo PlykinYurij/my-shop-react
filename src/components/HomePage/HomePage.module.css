@@ -1,0 +1,28 @@
+.wrapperHomePage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+.contacts {
+    font-size: x-large;
+    font-weight: 400;
+    margin: 15px 0;
+}
+
+.icon {
+    width: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.link {
+    color: whitesmoke;
+}
+
+.iconsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -16,14 +16,13 @@ function App() {
       basket,
       setBasket
     }}>
-      <div className="app">
+      <div id="app" className="app">
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<HomePage />} />
             <Route path="shop" element={<ContainerShop />} />
             <Route path="shop/:id" element={<PageProduct />} />
             <Route path="shop/category/:category" element={<Category />} />
-
             <Route path="basket" element={<BasketContainer />} />
           </Route>
         </Routes>
