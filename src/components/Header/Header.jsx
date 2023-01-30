@@ -1,10 +1,12 @@
-import React from "react"
+import React, { useContext } from "react"
 import { NavLink } from "react-router-dom"
 import classes from "./Header.module.css"
 import shopIcon from "../../images/shopIcon2.png"
+import { BasketContext } from "../context"
 
 const Header = () => {
     const setActive = ({ isActive }) => isActive ? classes.active : " ";
+    const { basket, setBasket } = useContext(BasketContext)
 
     return (
         <div className={classes.containerHeader}>
@@ -21,7 +23,10 @@ const Header = () => {
                     <NavLink className={setActive} to={"/shop"}>Shop</NavLink>
                 </div>
                 <div className={classes.navigation}>
-                    <NavLink className={setActive} to={"/basket"}>Cart</NavLink>
+                    <NavLink className={setActive} to={"/basket"}>Cart {basket.length > 0 && <span>
+                        {basket.length}
+                    </span>}
+                    </NavLink>
                 </div>
             </div>
             <div className={classes.emertyContainer}>
